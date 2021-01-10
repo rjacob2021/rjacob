@@ -6,10 +6,10 @@ namespace OddInt
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter an odd number:");
+            Console.WriteLine("Please enter an odd number:");
             int n = Convert.ToInt32(Console.ReadLine());
             var a = new int[n];
-            Console.WriteLine("Enter the array elements:");
+            Console.WriteLine("Please enter the array elements:");
             for(int i=0;i<n;i++)
             {
                 a[i] = Convert.ToInt32(Console.ReadLine());
